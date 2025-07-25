@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Number guess game</title>
+  <style>
+ .intro ,  h3 , .instruct , .startover , .number{
+   text-align: center;
+ }
+ .input-box{
+   display: flex;
+   align-items: centre;
+   justify-content: center;
+   height: 2rem;
+    }
+    input {
+    border: 2px solid  aliceblue;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-align: center;
+    }
+    .button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     margin-top: 3rem;
+    }
+button{
+  height: 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+button:hover{
+  border: 2px solid goldenrod;
+}
+.result{
+  margin-top: 3rem;
+}
+h{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+  </style>
+</head>
+
+<body style="background-color: #212121; color: azure;">
+  <h3>
+    Number Guessing Game
+  </h3>
+  <div class="intro">
+    <p>
+      Try to guess a number between 1-100 and you have 10 attempts to guess the correct number
+    </p>
+  </div>
+ <form>
+  <div class="instruct">
+    <h1>
+      Guess a number 
+    </h1>
+  </div>
+ <div class="input-box">
+   <input type="number" id="number">
+   </input>
+</div>
+<div class="button">
+  <button type="submit" class="btn">
+    Submit Guess
+  </button>
+  </form>
+</div>
+<div class="startover">
+
+      
+   
+  <h4>
+    You guessed : <span class="guessed">
+      </span>
+
+  </h4> 
+     
+
+    <h4>
+    Attempts left: <span class="attempts">
+      10
+    </span>
+  </h4>
+   <p class="lastResult">
+  
+</p> 
+</div>
+
+</body>
+<script src="script.js">
+  
+</script>
+  </html>
