@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Theme Changer</title>
+</head>
+<style>
+  .buttons {
+    width: 80px;
+      height: 80px;
+      border: 2px solid black;
+      margin: 10px;
+  }
+      .container {
+      display: flex;
+      justify-content: center;
+      gap: 10px; 
+      flex-wrap: wrap;
+    }
+    #grey{
+      background-color: grey;
+    }
+    #grey:hover{
+      border: 5px solid black;
+    }
+        #white{
+      background-color: white;
+    }
+        #white:hover{
+      border: 5px solid black;
+    }
+        #blue{
+      background-color: blue;
+    }
+            #blue:hover{
+      border: 5px solid black;
+    }
+        #yellow {
+      background-color: yellow;
+    }
+            #yellow:hover {
+          border: 5px solid black;
+        }
+                #new_colour {
+      background-color: #006A8DFF;
+    }
+            #new_colour:hover {
+          border: 5px solid black;
+        }
+</style>
+<body>
+  <h1 style="text-align: center;">
+    Color scheme switcher
+  </h1>
+<div class="container">
+  <div class="buttons" id="grey"></div>
+  <div class="buttons" id="white"></div>
+  <div class="buttons" id="blue"></div>
+  <div class="buttons" id="yellow"></div>
+  <div class="buttons" id="new_colour">
+    
+  </div>
+</div>
+<h2 style="text-align: center;">
+  Try clicking on one of the colours above
+   </h2>
+   <h2 style="text-align: center;">
+    To change the background colour of this page
+   </h2>
+</body>
+<script src="script.js">
+  
+</script>
+  </html>
