@@ -1,22 +1,22 @@
-#🛠️ Mini JavaScript Projects
+🛠️ Mini JavaScript Projects
 
 A collection of simple yet fun JavaScript projects to sharpen my skills and explore DOM manipulation, event handling, and basic logic building.
 
-#📂 Projects Included
+📂 Projects Included
 
-##1. BMI Calculator 🏋️
+1. BMI Calculator 🏋️
 
 Calculates Body Mass Index based on user input for weight and height.
 
-##2. Theme Changer 🎨
+2. Theme Changer 🎨
 
 Changes the background color with a click — perfect for learning DOM events and CSS manipulation.
 
-##3. Number Guess Game 🎯
+3. Number Guess Game 🎯
 
 Guess the secret number within a given range and get instant feedback.
 
-#🚀 Tech Stack
+🚀 Tech Stack
 
 HTML5
 
@@ -24,12 +24,21 @@ CSS3
 
 JavaScript (Vanilla JS)
 
+📜 How to Run
+
+1. Clone the repo:
+
+```git clone https://github.com/yourusername/repo-name.git```
 
 
-#🎯 Goals of This Repo
+2. Open the desired project folder.
 
-##. Practice JavaScript fundamentals
+3. Run the index.html file in your browser.
 
-##. Understand DOM interactions
+🎯 Goals of This Repo
 
-##. Build problem-solving skills through small projects
+Practice JavaScript fundamentals
+
+Understand DOM interactions
+
+Build problem-solving skills through small projects
